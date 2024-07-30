@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style/style.css">
+    <title>Slide</title>
+</head>
+<body>
+    <main>
+        <h1>Sample Title</h1>
+        <div id="cntr">
+            <button id="left" type="button" onclick="prev(0)"><span class="material-symbols-sharp">arrow_back_ios</span></button>
+            <div id="imgs">
+                <img id="front" class="0" src="src/img/1.png" alt="image">
+                <img id="back" class="0" src="src/img/2.png" alt="image">
+            </div>
+            <button id="right" type="button" onclick="next(0)"><span class="material-symbols-sharp">arrow_forward_ios</span></button>
+        </div>
+        <div id="cntr">
+            <button id="left" type="button" onclick="prev(1)"><span class="material-symbols-sharp">arrow_back_ios</span></button>
+            <div id="imgs">
+                <img id="front" class="1" src="src/img/3.png" alt="image">
+                <img id="back" class="1" src="src/img/2.png" alt="image">
+            </div>
+            <button id="right" type="button" onclick="next(1)"><span class="material-symbols-sharp">arrow_forward_ios</span></button>
+        </div>
+    </main>
+    <script src="src/script/main.js"></script>
+</body>
+</html>
